@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="index.html">Meu Portfólio</a>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#tecnologias">Tecnologias</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main class="pagina">
+    <section class="carrossel" aria-label="Apresentação em carrossel">
+      <button class="botao-carrossel anterior" type="button" aria-label="Slide anterior">&#10094;</button>
+
+      <div class="trilha">
+        <article class="slide ativo" id="inicio">
+          <div class="conteudo-slide">
+            <p class="etiqueta">Desenvolvedor em formação</p>
+            <h1>Olá, eu sou <span>Matheus</span></h1>
+            <p>
+              Este é meu portfólio profissional, criado para reunir minha trajetória,
+              minhas tecnologias, meus projetos e minhas formas de contato em um só lugar.
+            </p>
+
+            <div class="acoes">
+              <a class="botao principal" href="projetos.html">Ver projetos</a>
+              <a class="botao secundario" href="#contato">Fale comigo</a>
+            </div>
+          </div>
+
+          <div class="cartao-destaque">
+            <p>Área desejada</p>
+            <strong>Desenvolvimento Web</strong>
+            <span>Front-end, Back-end</span>
+          </div>
+        </article>
+
+        <article class="slide" id="sobre">
+          <div class="conteudo-slide">
+            <p class="etiqueta">Quem sou eu</p>
+            <h2>Uma pessoa curiosa, dedicada e pronta para evoluir.</h2>
+            <p>
+              Sou apaixonado por tecnologia e venho desenvolvendo projetos para
+              colocar minhas ideias em prática, melhorar minhas habilidades e criar
+              soluções que façam sentido para pessoas e empresas.
+            </p>
+          </div>
+
+          <div class="lista-info">
+            <div>
+              <strong>Perfil</strong>
+              <span>Organizado, comunicativo e focado em aprender.</span>
+            </div>
+            <div>
+              <strong>Objetivo</strong>
+              <span>Criar soluções web úteis, organizadas e com boa experiência.</span>
+            </div>
+            <div>
+              <strong>Diferencial</strong>
+              <span>Vontade de crescer e melhorar a cada projeto.</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" id="tecnologias">
+          <div class="conteudo-slide">
+            <p class="etiqueta">Tecnologias</p>
+            <h2>Ferramentas que uso para transformar ideias em páginas.</h2>
+            <p>
+              Estas são algumas tecnologias que utilizo para desenvolver interfaces,
+              organizar projetos e transformar ideias em aplicações web.
+            </p>
+          </div>
+
+          <div class="grade-tecnologias">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Responsividade</span>
+          </div>
+        </article>
+
+        <article class="slide" id="projetos">
+          <div class="conteudo-slide">
+            <p class="etiqueta">Projetos</p>
+            <h2>Projetos que mostram minha evolução na prática.</h2>
+            <p>
+              Separei uma página dedicada para apresentar melhor cada projeto,
+              mostrando o objetivo, as tecnologias usadas e os links principais.
+            </p>
+
+            <div class="acoes">
+              <a class="botao principal" href="projetos.html">Abrir página de projetos</a>
+            </div>
+          </div>
+
+          <div class="mini-projetos">
+            <div>
+              <strong>AgroGestor</strong>
+              <span>Aplicação Angular para gestão agrícola SaaS</span>
+            </div>
+            <div>
+              <strong>RotaPlus</strong>
+              <span>Aplicação Angular para viagens e hotelaria</span>
+            </div>
+            <div>
+              <strong>Livraria Digital</strong>
+              <span>E-commerce de livros com Angular e SSR</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="slide" id="contato">
+          <div class="conteudo-slide">
+            <p class="etiqueta">Contato</p>
+            <h2>Vamos conversar?</h2>
+            <p>
+              Se quiser conhecer melhor meu trabalho, conversar sobre tecnologia
+              ou falar sobre algum projeto, meus contatos estão logo abaixo.
+            </p>
+          </div>
+
+          <div class="contatos">
+            <a href="https://github.com/MecFlinsTon" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="mailto:math.mulleer@gmail.com">math.mulleer@gmail.com</a>
+            <a href="https://www.linkedin.com/in/matheus-cardoso-70a50042b" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </article>
+      </div>
+
+      <button class="botao-carrossel proximo" type="button" aria-label="Próximo slide">&#10095;</button>
+    </section>
+
+    <div class="indicadores" aria-label="Indicadores do carrossel">
+      <button class="ativo" type="button" aria-label="Ir para o slide 1"></button>
+      <button type="button" aria-label="Ir para o slide 2"></button>
+      <button type="button" aria-label="Ir para o slide 3"></button>
+      <button type="button" aria-label="Ir para o slide 4"></button>
+      <button type="button" aria-label="Ir para o slide 5"></button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
